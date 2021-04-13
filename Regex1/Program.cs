@@ -17,7 +17,7 @@ namespace Regex1
             var output1 = Regex.Replace(str.Split().Last(), @"[^0-9a-zA-Z\ ]+", "");
             Console.WriteLine(output + " " + output1);
 
-            Console.WriteLine("Second_Change"); //-_-_-_-
+            Console.WriteLine("IDE Changing / ..."); //-_-_-_-
             Console.ReadKey();
         }
     }
